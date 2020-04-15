@@ -1,0 +1,252 @@
+#body {
+    background-color: black;
+    text-align: center;
+}
+.hideElement{
+    display: none;
+}
+
+.div {
+    text-align: center;
+    background-color: black;
+}
+.detailsDiv {
+    text-align: left;
+    background-color: black;
+}
+.text,.buttons {
+    color: white;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+.DefGrid-container {
+    display: grid;
+    grid-template-columns: 30% auto auto;
+    gap: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+
+.radioBtn {
+    margin-left: 5%;
+}
+
+.DefGrid-item {
+    background-color: black;
+    opacity: 85%;
+}
+.menuText{
+    color: white;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    margin-left: 2%;
+    transition: all 2s linear;
+    display: block;
+}
+.movieTitle,.movieYear,.movieRate{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.shown{
+    transition: all 2s vertical;
+    display: block;
+}
+.movieTitle{
+    text-align: left;
+}
+.buttons {
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(135, 146, 199);
+    border: none;
+    cursor: pointer;
+    opacity: 100%;
+    font-size: 100%;
+}
+.inputVal {
+    float:right;
+    margin-right: 3%;
+}
+
+.menuDiv {
+    padding: 1%;
+}
+
+.movieContainer {
+    display: grid;
+    grid-template-columns: 15% 30% 15% 15% 12.5% ;
+    gap: 2%;
+}
+.descHeader h2{
+    cursor: pointer;
+}
+
+#imdb,#tmdb{
+    cursor:pointer;
+    color: white;
+    padding: 20px;
+}
+#detailsPage{
+    display: none;
+    grid-template-columns: 20% 45% 30%;
+    gap: 2%;
+    margin: 0.5%;
+    opacity: 80%;
+    text-align: center;
+}
+#detailHeader{
+    grid-area: 1 / 1 / span 1/ span 3;
+    height: 50px;
+}
+#castDetails{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+#movieDetails{
+    grid-area: 2 / 1 / span 1/ span 1;
+    height: 700px;
+    overflow: auto;
+    padding-left:5px;
+    padding-right: 5px;
+}
+#moviePosterDiv{
+    grid-area: 2 / 2 / span 1/ span 1;
+    height: 700px;
+    text-align: center;
+    
+}
+#bigView{
+    grid-area: 2 / 1 / span 1/ span 3;
+    height:auto;
+    width:100%;
+    display:  none;
+}
+#cDetails{
+    grid-area: 2 / 3 / span 1/ span 1;
+    height: 700px;
+    overflow: auto;
+    text-align: center;
+}
+
+#btnDiv {
+    margin-left: 25%;
+}
+#filterBtn, #clearBtn {
+    width: 25%;
+    height: 75%;
+    
+}
+#crewDetails{
+    display: none;
+}
+#menuH{
+    font-size: 20px;
+}
+#menuhideD{
+    width: 100%;
+    text-align: right;
+}
+#menuC {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    float: left;
+}
+#menuSearchBox,#menuLabels,.inputVal{
+    width: 50%;
+    font-size: 15px;
+    color: black;
+}
+#menuLabels { 
+    color:white;
+    
+}
+
+#defaultPage {
+    display: none;
+}
+#hideButton{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+#gridDefI0 {
+    grid-area: 1 / 1 / span 1/ span 3;
+    height: 100px;
+
+}
+
+#gridDefI1 {
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto 20px;
+}
+
+#itemList{
+    overflow: auto;
+
+}
+
+#gridDefI2 {
+    grid-area: 2 / 2 / span 1/ span 2;
+    height: 600px;
+    overflow: auto;
+}
+#listHeader {
+    grid-area: 1 / 1 / span 1/ span 5;
+    height: 50px;
+    text-align: center;
+    
+}
+
+#titleHeader{
+    text-align: left;
+}
+
+#divmain {
+    display: block;
+    background-image: url('../images/home.jpg');
+    background-size: 100% 100%;
+    height: 1000px;
+    width: 100%;
+}
+#entryBox {
+    display: block;
+    opacity: 75%;
+    height: 500px;
+    width: 50%;
+    position: fixed;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    resize: both;
+    padding: 5%;
+}
+#copyrightHome {
+    width: 100%;
+    color: white;
+    position: fixed;
+    bottom: 10px;
+}
+#boxHeader {
+    font-size: 30px;
+}
+#label {
+    font-size: 20px;
+    margin-right: 5px;
+}
+#movieSearch {
+    width: 75%;
+}
+#overview{
+    font-size: 40px;
+}
